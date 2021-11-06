@@ -45,7 +45,6 @@ namespace kafka_transactions
                     
                     try
                     {
-                        
                         producer.BeginTransaction();
 
                         /* Processing the message */
